@@ -19,7 +19,7 @@ on **7.3.4**. See [VALIDATION.md](VALIDATION.md) for what was only compiled and 
 
 ## Known issues
 
-- **5 GHz DHCP lease loss observed on kernel 7.2.13 (not on 7.2.8)**; see [issue 6](https://github.com/BenkiNew/8821au-maintained/issues/6).
+- **5 GHz DHCP lease loss observed once on kernel 7.2.13 with this module (not on 7.2.8)**; see [issue 6](https://github.com/BenkiNew/8821au-maintained/issues/6) (closed 2026-11-04 as no longer applicable to this repository: the maintainer moved to the in-kernel driver and the cause was never isolated).
   One boot per kernel version, not isolated to the driver versus the kernel or network stack; no claim of causality. Reports from other setups are welcome.
 - **7.3.x is compile-tested only** for this fork (no boot test); see [VALIDATION.md](VALIDATION.md).
 

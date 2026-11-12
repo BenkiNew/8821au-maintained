@@ -21,7 +21,7 @@ driver is better for every adapter or distribution.
 
 - [Latest release](https://github.com/BenkiNew/8821au-maintained/releases/latest)
 - [Changes](CHANGELOG.md) and [validation matrix](docs/VALIDATION.md)
-- [Help test other platforms and stability](https://github.com/BenkiNew/8821au-maintained/issues/5)
+- [Report a hardware test result](https://github.com/BenkiNew/8821au-maintained/issues/new/choose) (optional: we do not run an active testing call)
 - [Report a bug](https://github.com/BenkiNew/8821au-maintained/issues)
 - [Installation questions](https://github.com/BenkiNew/8821au-maintained/discussions/categories/q-a)
 - [Support](SUPPORT.md) / [Security reports](SECURITY.md)
@@ -44,7 +44,7 @@ TP-Link Archer T2U Plus і Linux 7.x. Ми продовжуємо роботу �
 Успішна збірка не означає перевірку всіх адаптерів і режимів роботи.
 
 Перевіряли драйвер на іншому дистрибутиві чи адаптері?
-[Поділіться результатами тестування](https://github.com/BenkiNew/8821au-maintained/issues/5).
+[Повідомити результат перевірки на залізі](https://github.com/BenkiNew/8821au-maintained/issues/new/choose) (за бажанням; активного збору тестів ми не ведемо).
 
 [Український вступ](docs/README.uk.md) · [Історія змін](CHANGELOG.md) ·
 [Релізи](https://github.com/BenkiNew/8821au-maintained/releases) ·
