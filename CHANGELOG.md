@@ -6,6 +6,8 @@
 
 ## [Unreleased]
 
+## [5.12.5.2-fork.2] - 2026-11-12
+
 ### Виправлено — 2026-11-12
 - Збірка проти kernel-ml `7.3.x` (перевірено на `7.3.4`, ELRepo el10): ядро змінило підписи двох callback-ів
   `cfg80211_ops` — `remain_on_channel` (тепер `u64 cookie` за значенням) і `mgmt_tx` (`u64 cookie` за значенням); cookie
