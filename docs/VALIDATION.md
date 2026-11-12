@@ -17,8 +17,8 @@ These are dated observations, not a guarantee for all distributions or devices.
 Source: [maintainer changelog](../CHANGELOG.md). These results do not establish
 monitor/AP mode, every USB ID, or every kernel/distribution combination.
 
-The Kernel compatibility CI workflow builds against upstream 7.0, 7.1 and
-7.2.8 source trees to exercise compatibility boundaries. Consult its actual
+The Kernel compatibility CI workflow builds against upstream 7.0, 7.1,
+7.2.8 and 7.3.4 source trees to exercise compatibility boundaries. Consult its actual
 run results before treating a matrix entry as passing. It uses prepared
 x86_64 configurations without loading modules or replacing a host kernel.
 
