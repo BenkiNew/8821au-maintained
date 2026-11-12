@@ -1,5 +1,8 @@
 # Maintained RTL8821AU / RTL8811AU driver fork
 
+[![Build CI](https://github.com/BenkiNew/8821au-20210708/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/BenkiNew/8821au-20210708/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/BenkiNew/8821au-20210708)](https://github.com/BenkiNew/8821au-20210708/releases/latest)
+
 Maintained by **BenkiNew** for TP-Link Archer T2U Plus and Linux 7.x.
 This fork continues compatibility work on the legacy Realtek driver after
 upstream stopped regular API updates beyond Linux 6.14. It includes kernel
