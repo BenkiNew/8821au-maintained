@@ -5,6 +5,12 @@
 
 Maintained by **BenkiNew** for TP-Link Archer T2U Plus and Linux 7.x.
 Formerly named `8821au-20210708` (the name inherited from upstream); old links redirect here.
+
+> **Which driver do I need?** If `modinfo rtw88_8821au` prints a module path, your kernel already includes
+> a driver for this adapter (ELRepo kernel-ml 7.3.1 and 7.3.4 do): prefer it, nothing to install.
+> If the module is not found (e.g. kernel-ml 7.2.x and older), install this fork. Do not use both at once.
+> **Який драйвер потрібен?** Якщо `modinfo rtw88_8821au` показує шлях до модуля, ядро вже має драйвер
+> для цього адаптера: користуйтеся ним. Якщо модуль не знайдено, ставте цей форк.
 This fork continues compatibility work on the legacy Realtek driver after
 upstream stopped regular API updates beyond Linux 6.14. It includes kernel
 API fixes and connection-quality monitoring support.
