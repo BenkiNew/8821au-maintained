@@ -2,8 +2,8 @@
 
 ## English
 
-- Installation and usage questions: [Discussions Q&A](https://github.com/BenkiNew/8821au-20210708/discussions/categories/q-a).
-- Reproducible bugs and hardware test reports: [Issues](https://github.com/BenkiNew/8821au-20210708/issues), using the appropriate template.
+- Installation and usage questions: [Discussions Q&A](https://github.com/BenkiNew/8821au-maintained/discussions/categories/q-a).
+- Reproducible bugs and hardware test reports: [Issues](https://github.com/BenkiNew/8821au-maintained/issues), using the appropriate template.
 - Suspected vulnerabilities: the private channel in [SECURITY.md](SECURITY.md).
 - Code and documentation contributions: [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -18,8 +18,8 @@ in-kernel `rtw88` driver where it meets your needs.
 
 ## Українською
 
-- Встановлення й використання: [Discussions Q&A](https://github.com/BenkiNew/8821au-20210708/discussions/categories/q-a).
-- Відтворювані баги та звіти перевірки обладнання: [Issues](https://github.com/BenkiNew/8821au-20210708/issues), відповідний шаблон.
+- Встановлення й використання: [Discussions Q&A](https://github.com/BenkiNew/8821au-maintained/discussions/categories/q-a).
+- Відтворювані баги та звіти перевірки обладнання: [Issues](https://github.com/BenkiNew/8821au-maintained/issues), відповідний шаблон.
 - Підозрювані вразливості: приватний канал у [SECURITY.md](SECURITY.md).
 - Зміни коду та документації: [CONTRIBUTING.md](CONTRIBUTING.md).
 

@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--traffic', action='store_true')
 parser.add_argument('--output', type=pathlib.Path, required=True)
 args = parser.parse_args()
-repo = 'BenkiNew/8821au-20210708'
+repo = 'BenkiNew/8821au-maintained'
 owner = repo.split('/')[0]
 
 
@@ -43,7 +43,7 @@ for issue in issues:
 discussion_count = 0
 cursor = None
 while True:
-    query = 'query($cursor:String){repository(owner:"BenkiNew",name:"8821au-20210708"){discussions(first:100,after:$cursor){nodes{author{login __typename}} pageInfo{hasNextPage endCursor}}}}'
+    query = 'query($cursor:String){repository(owner:"BenkiNew",name:"8821au-maintained"){discussions(first:100,after:$cursor){nodes{author{login __typename}} pageInfo{hasNextPage endCursor}}}}'
     command = ['gh', 'api', 'graphql', '-f', 'query=' + query]
     if cursor:
         command += ['-f', 'cursor=' + cursor]

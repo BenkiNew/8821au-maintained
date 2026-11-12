@@ -8,6 +8,12 @@
 
 ## [5.12.5.2-fork.2] - 2026-11-12
 
+### Змінено — 2026-11-12
+- Репозиторій перейменовано з `8821au-20210708` на `8821au-maintained` (дата в назві успадкована від upstream і вводила в оману;
+  старі посилання GitHub перенаправляє). Посилання в README, SUPPORT, SECURITY і службових скриптах оновлено.
+- Інструкція встановлення (README, кроки 6–7) тепер клонує цей форк, а не upstream `morrownr/8821au-20210708`,
+  який не збирається на ядрах 7.x.
+
 ### Виправлено — 2026-11-12
 - Збірка проти kernel-ml `7.3.x` (перевірено на `7.3.4`, ELRepo el10): ядро змінило підписи двох callback-ів
   `cfg80211_ops` — `remain_on_channel` (тепер `u64 cookie` за значенням) і `mgmt_tx` (`u64 cookie` за значенням); cookie
@@ -103,4 +109,4 @@ upstream, тож DKMS-встановлення на вже наявних сис
 - Регресія збірки на ядрах < 7.1, внесена попереднім фіксом.
   upstream: [morrownr#211](https://github.com/morrownr/8821au-20210708/pull/211) — **влито**
 
-[v5.12.5.2-fork.1]: https://github.com/BenkiNew/8821au-20210708/releases/tag/v5.12.5.2-fork.1
+[v5.12.5.2-fork.1]: https://github.com/BenkiNew/8821au-maintained/releases/tag/v5.12.5.2-fork.1

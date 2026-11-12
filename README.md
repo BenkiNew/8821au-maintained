@@ -1,9 +1,10 @@
 # Maintained RTL8821AU / RTL8811AU driver fork
 
-[![Build CI](https://github.com/BenkiNew/8821au-20210708/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/BenkiNew/8821au-20210708/actions/workflows/build.yml)
-[![Latest release](https://img.shields.io/github/v/release/BenkiNew/8821au-20210708)](https://github.com/BenkiNew/8821au-20210708/releases/latest)
+[![Build CI](https://github.com/BenkiNew/8821au-maintained/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/BenkiNew/8821au-maintained/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/BenkiNew/8821au-maintained)](https://github.com/BenkiNew/8821au-maintained/releases/latest)
 
 Maintained by **BenkiNew** for TP-Link Archer T2U Plus and Linux 7.x.
+Formerly named `8821au-20210708` (the name inherited from upstream); old links redirect here.
 This fork continues compatibility work on the legacy Realtek driver after
 upstream stopped regular API updates beyond Linux 6.14. It includes kernel
 API fixes and connection-quality monitoring support.
@@ -12,11 +13,11 @@ Prefer the in-kernel **rtw88** driver when it meets your needs. This fork is
 for users who still need the legacy driver; it is not a claim that the legacy
 driver is better for every adapter or distribution.
 
-- [Latest release](https://github.com/BenkiNew/8821au-20210708/releases/latest)
+- [Latest release](https://github.com/BenkiNew/8821au-maintained/releases/latest)
 - [Changes](CHANGELOG.md) and [validation matrix](docs/VALIDATION.md)
-- [Help test other platforms and stability](https://github.com/BenkiNew/8821au-20210708/issues/5)
-- [Report a bug](https://github.com/BenkiNew/8821au-20210708/issues)
-- [Installation questions](https://github.com/BenkiNew/8821au-20210708/discussions/categories/q-a)
+- [Help test other platforms and stability](https://github.com/BenkiNew/8821au-maintained/issues/5)
+- [Report a bug](https://github.com/BenkiNew/8821au-maintained/issues)
+- [Installation questions](https://github.com/BenkiNew/8821au-maintained/discussions/categories/q-a)
 - [Support](SUPPORT.md) / [Security reports](SECURITY.md)
 - [Adoption monitoring](docs/ACTIVITY.md)
 - [Contributing](CONTRIBUTING.md) / [Українською](docs/README.uk.md)
@@ -37,11 +38,11 @@ TP-Link Archer T2U Plus і Linux 7.x. Ми продовжуємо роботу �
 Успішна збірка не означає перевірку всіх адаптерів і режимів роботи.
 
 Перевіряли драйвер на іншому дистрибутиві чи адаптері?
-[Поділіться результатами тестування](https://github.com/BenkiNew/8821au-20210708/issues/5).
+[Поділіться результатами тестування](https://github.com/BenkiNew/8821au-maintained/issues/5).
 
 [Український вступ](docs/README.uk.md) · [Історія змін](CHANGELOG.md) ·
-[Релізи](https://github.com/BenkiNew/8821au-20210708/releases) ·
-[Звіти про проблеми](https://github.com/BenkiNew/8821au-20210708/issues)
+[Релізи](https://github.com/BenkiNew/8821au-maintained/releases) ·
+[Звіти про проблеми](https://github.com/BenkiNew/8821au-maintained/issues)
 
 ## 8821au ( 8821au.ko ) :rocket:
 
@@ -403,13 +404,13 @@ cd ~/src
 #### Step 6: Download the driver
 
 ```
-git clone https://github.com/morrownr/8821au-20210708.git
+git clone https://github.com/BenkiNew/8821au-maintained.git
 ```
 
 #### Step 7: Move to the newly created driver directory
 
 ```
-cd ~/src/8821au-20210708
+cd ~/src/8821au-maintained
 ```
 
 #### Step 8: Run the installation script (`install-driver.sh`)
@@ -611,7 +612,7 @@ kernel 5.10 to kernel 5.15)
 #### Step 2: Move to the driver directory
 
 ```
-cd ~/src/8821au-20210708
+cd ~/src/8821au-maintained
 ```
 
 #### Step 3: Pull updated code from this repo
@@ -645,7 +646,7 @@ The driver directory can be deleted after running this script.
 #### Step 2: Move to the driver directory
 
 ```
-cd ~/src/8821au-20210708
+cd ~/src/8821au-maintained
 ```
 
 #### Step 3: Run the removal script

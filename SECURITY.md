@@ -8,7 +8,7 @@ Compatibility and hardware validation limits are listed in
 [the validation matrix](docs/VALIDATION.md).
 
 For a suspected vulnerability, use
-[GitHub private vulnerability reporting](https://github.com/BenkiNew/8821au-20210708/security/advisories/new).
+[GitHub private vulnerability reporting](https://github.com/BenkiNew/8821au-maintained/security/advisories/new).
 Do not post exploit details or sensitive logs in public Issues or Discussions.
 
 Include the driver commit/release, exact kernel, adapter USB ID, affected code,
@@ -26,7 +26,7 @@ For ordinary build or connection problems, see [SUPPORT.md](SUPPORT.md).
 [таблиці перевірок](docs/VALIDATION.md).
 
 Про підозрювану вразливість повідомляйте через
-[приватний звіт GitHub](https://github.com/BenkiNew/8821au-20210708/security/advisories/new).
+[приватний звіт GitHub](https://github.com/BenkiNew/8821au-maintained/security/advisories/new).
 Не публікуйте деталі експлуатації чи чутливі логи в Issues або Discussions.
 
 Зазначте commit/реліз драйвера, точне ядро, USB ID адаптера, проблемний код,
